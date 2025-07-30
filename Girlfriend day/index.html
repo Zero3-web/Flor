@@ -9,19 +9,22 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="container" id="start-btn-container">
-  <button id="start-btn" class="button"></button>
+<div id="main-content">
+  <div class="container" id="start-btn-container">
+    <button id="start-btn" class="button"></button>
+  </div>
+  <audio id="bg-music" src="musica/Juanes - Es Por Ti (Official Music Video).mp3" preload="none"></audio>
+  <canvas id="galaxy-canvas" style="display:none;opacity:0;will-change:opacity;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:10;"></canvas>
+  <div class="wrapper" style="display:none;">
+      <div class="flower"></div>
+  </div>
+  <div class="flower-message" style="display:none;"></div>
 </div>
-<audio id="bg-music" src="musica/Juanes - Es Por Ti (Official Music Video).mp3" preload="auto"></audio>
-<canvas id="galaxy-canvas" style="display:none; opacity:0; transition:opacity 1.2s; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:10;"></canvas>
-<div class="wrapper" style="display:none;">
-    <div class="flower"></div>
-</div>
-<div class="flower-message" style="display:none;">Esta flor es para ti</div>
+<style>
+/* Eliminado keyframes spin: no se usa loader */
+</style>
 <!-- partial -->
-<script src="js/script.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 
 </body>
 </html>
