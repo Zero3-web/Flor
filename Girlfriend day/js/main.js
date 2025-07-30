@@ -64,7 +64,7 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
       galaxyCanvas.width = window.innerWidth;
       galaxyCanvas.height = window.innerHeight;
       var ctx = galaxyCanvas.getContext('2d');
-      var numDots = isMobile ? 36 : 60;
+        var numDots = isMobile ? 3 : 60;
       var dots = [];
       var dotsToAdd = 0;
       var minDotSize = isMobile ? 0.5 : 0.7;
