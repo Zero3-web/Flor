@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Flower, CSS + JS</title>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container" id="start-btn-container">
+  <button id="start-btn" class="button"></button>
+</div>
+<audio id="bg-music" src="musica/Juanes - Es Por Ti (Official Music Video).mp3" preload="auto"></audio>
+<canvas id="galaxy-canvas" style="display:none; opacity:0; transition:opacity 1.2s; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:10;"></canvas>
+<div class="wrapper" style="display:none;">
+    <div class="flower"></div>
+</div>
+<div class="flower-message" style="display:none;">Esta flor es para ti</div>
+<!-- partial -->
+<script src="js/script.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
